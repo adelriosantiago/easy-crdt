@@ -1,0 +1,22 @@
+{
+  "name": "own-crdt",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "browserify client.js -o static/bundle.js --debug && node server.js"
+  },
+  "author": "Alejandro del Río Santiago <adelriosantiago@gmail.com> (http://www.adelriosantiago.com)",
+  "license": "ISC",
+  "dependencies": {
+    "adiff": "~0.2.7",
+    "r-array": "~0.5",
+    "shoe": "~0.0.15",
+    "ecstatic": "~0.1.6",
+    "reconnect": "~1.0.0",
+    "client-reloader": "~1.0.2"
+  },
+  "devDependencies": {
+    "browserify": "*"
+  }
+}
