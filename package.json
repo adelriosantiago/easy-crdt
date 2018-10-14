@@ -9,12 +9,12 @@
   "author": "Alejandro del Río Santiago <adelriosantiago@gmail.com> (http://www.adelriosantiago.com)",
   "license": "ISC",
   "dependencies": {
-    "adiff": "~0.2.7",
-    "r-array": "~0.5",
+    "adiff": "~0.2.13",
+    "r-array": "~0.5.3",
     "shoe": "~0.0.15",
-    "ecstatic": "~0.1.6",
-    "reconnect": "~1.0.0",
-    "client-reloader": "~1.0.2"
+    "ecstatic": "~3.3.0",
+    "reconnect": "~2.0.2",
+    "client-reloader": "~1.2.2"
   },
   "devDependencies": {
     "browserify": "*"
